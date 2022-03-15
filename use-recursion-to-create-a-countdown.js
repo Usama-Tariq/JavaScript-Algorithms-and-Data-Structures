@@ -1,5 +1,5 @@
 // Only change code below this line
-function countdown(n){
+function countdown(n) {
   // if(n < 1){
   //   return [];
   // } else{
