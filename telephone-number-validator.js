@@ -8,7 +8,7 @@ function telephoneCheck(str) {
   //  /^(\+?\d{1,3}[-\s]?)?(\d{3}[-\s]?\d{3}[-\s]?\d{4}$|\(\d{3}\)\s?\d{3}[-\s]?\d{4}$)/gm //shorter version
   //  /^(\+?\d{1,3}[-\s]?)?(\d{3}[-\s]?|\(\d{3}\)\s?)\d{3}[-\s]?\d{4}$/gm //optimized one
 
-  // plz visit this for testing https://regex101.com/r/o4UXbZ/2
+  // plz visit this for testing https://regex101.com/r/o4UXbZ/2 // https://regex101.com/r/LynPk4/1
   return regex.test(str) ? true : false;
 }
 
